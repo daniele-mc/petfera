@@ -1,4 +1,4 @@
-#include <tratador.h>
+#include "tratador.h"
 
 Tratador::Tratador(int m_nivel_de_segurança){
 	this->m_nivel_de_segurança = m_nivel_de_segurança;

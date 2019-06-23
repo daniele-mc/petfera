@@ -1,4 +1,4 @@
-#include <funcionario.h>
+#include "funcionario.h"
 
 Funcionario::Funcionario(int id, string nome, string cpf, short idade, short tipo_sanguineo, char fator_rh, string especialidade){
 	this->id = id;

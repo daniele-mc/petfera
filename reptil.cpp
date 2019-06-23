@@ -1,4 +1,4 @@
-#include <mamifero.h>
+#include "reptil.h"
 
 using namespace std;
 
