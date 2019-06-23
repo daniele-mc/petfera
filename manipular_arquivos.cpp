@@ -17,15 +17,12 @@ void LerArquivoEx(string nome){
 //verificando a existencia de um arquivo
 void VerificarArquivo(string nome){
 	ifstream arqDados(string);
-	if(!arqDados) {
+	if(arqDados.bad()) {
 		CriarArquivoInex(nome);
 	}
 	else{
 		LerArquivoEx(nome);	
 	}
 };
-//teste
-void Escrever(){
-	arqDados<<"escreveu";
-}
+
 //--imprimir de um map

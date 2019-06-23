@@ -1,0 +1,27 @@
+CC=g++
+.DEFAULT_GOAL=petfera
+funcionario.o: funcionario.cpp funcionario.h
+    $(CC) funcionario.cpp -c
+tratador.o: tratador.cpp tratador.h
+    $(CC) tratador.cpp -c
+veterinario.o: veterinario.cpp veterinario.h
+    $(CC) veterinario.cpp -c
+animal.o: animal.cpp animal.h
+    $(CC) animal.cpp -c
+anfibio.o: anfibio.cpp anfibio.h
+    $(CC) anfibio.cpp -c
+ave.o: ave.cpp ave.h
+    $(CC) ave.cpp -c
+mamifero.o: mamifero.cpp mamifero.h
+    $(CC) mamifero.cpp -c
+manipular_arquivos.o: manipular_arquivos.cpp manipular_arquivos.h
+    $(CC) manipular_arquivos.cpp -c
+reptil.o: reptil.cpp reptil.h
+    $(CC) reptil.cpp -c
+sistema.o: sistema.cpp sistema.h
+    $(CC) sistema.cpp -c
+petfera: main.cpp funcionario.o tratador.o veterinario.o animal.o anfibio.o ave.o mamifero.o manipular_arquivos.o reptil.o sistema.o
+    $(CC) main.cpp funcionario.o tratador.o veterinario.o animal.o anfibio.o ave.o mamifero.o manipular_arquivos.o reptil.o sistema.o -o petfera
+clear:
+    rm *.o
+    rm petfera

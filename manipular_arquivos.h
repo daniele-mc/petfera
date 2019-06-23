@@ -10,7 +10,5 @@ string nome = "nome";
 void CriarArquivoInex (string nome);
 void LerArquivoEx(string nome);
 void VerificarArquivo(string nome);
-void Escrever();
-
 
 #endif
