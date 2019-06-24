@@ -1,4 +1,3 @@
-
 **PETFERA-PROJETO-LP1**
 =======================
 O projeto consiste em implementar um programa em C++ de cadastro de animais para a loja de animais silvestres Pet Fera.
@@ -24,10 +23,10 @@ Para executar o projeto é necessário ir no terminal do Linux, é necessário o
 **AUTORES**
 ----------
 
-Acsa Laiane Arcanjo Augusto.
-Daniele Mendonça de Carvalho.
-Gabriel Lucas de Medeiros Leite
-Gabriel Martins Spínola
-Maria Luiza de Araujo Azevedo
+* Acsa Laiane Arcanjo Augusto
+* Daniele Mendonça de Carvalho
+* Gabriel Lucas de Medeiros Leite
+* Gabriel Martins Spínola
+* Maria Luiza de Araujo Azevedo
 
 **IMD-UFRN**
