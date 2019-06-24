@@ -10,7 +10,7 @@ Funcionario::Funcionario(int id, string nome, string cpf, short idade, short tip
 	this->especialidade = especialidade;
 };
 
-void Funcionario::setID(int id){
+void Funcionario::setId(int id){
 	this->id = id;
 };
 

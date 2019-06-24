@@ -15,7 +15,7 @@ class Funcionario
 		string especialidade;
 	public:
 		virtual void consultar_funcionario() = 0;
-		void setID(int id);
+		void setId(int id);
 		int getId();
 		void setNome(string nome);
 		string getNome();
